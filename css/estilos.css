@@ -1,9 +1,104 @@
+ *{box-sizing: border-box;
+        padding: 0;
+        margin:0;}
+        
+        
+
+        
+  @font-face {   
+        
+      font-family: 'GloberRegular';
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberRegular.eot'); /* IE9 Compat Modes */
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberRegular.woff') format('woff'), /* Modern Browsers */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberRegular.svg#21661efc977bfcfec5c6c16307c05ceb') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+
+       }
+    
+/* fonts */
+  
+@font-face {
+  font-family: 'GloberBold';
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberBold.eot'); /* IE9 Compat Modes */
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberBold.woff') format('woff'), /* Modern Browsers */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Font.menufabric%20-%20GloberBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberBold.svg#21661efc977bfcfec5c6c16307c05ceb') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'GloberHeavy';
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberHeavy.eot'); /* IE9 Compat Modes */
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberHeavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberHeavy.woff') format('woff'), /* Modern Browsers */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberHeavy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberHeavy.svg#21661efc977bfcfec5c6c16307c05ceb') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'GloberLight';
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberLight.eot'); /* IE9 Compat Modes */
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberLight.woff') format('woff'), /* Modern Browsers */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberLight.svg#21661efc977bfcfec5c6c16307c05ceb') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'GloberRegular';
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberRegular.eot'); /* IE9 Compat Modes */
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberRegular.woff') format('woff'), /* Modern Browsers */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberRegular.svg#21661efc977bfcfec5c6c16307c05ceb') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'GloberSemiBold';
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberSemiBold.eot'); /* IE9 Compat Modes */
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberSemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberSemiBold.woff') format('woff'), /* Modern Browsers */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberSemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberSemiBold.svg#21661efc977bfcfec5c6c16307c05ceb') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'GlobarThin';
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberThin.eot'); /* IE9 Compat Modes */
+  src: url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberThin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberThin.woff') format('woff'), /* Modern Browsers */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Fontfabric%20-%20GloberThin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://hs-568441.f.hubspotemail.net/hub/568441/hubfs/fuentesdise%C3%B1oweb/Glober/Fontfabric%20-%20GloberThin.svg#21661efc977bfcfec5c6c16307c05ceb') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+} 
+
 
 	*{
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		font-family: 'Montserrat Alternates', sans-serif;
+		font-family: 'GloberRegular', sans-serif;
+		color:#3b3b3b;
 	}
 
 	.capa{
@@ -17,9 +112,12 @@
 	/*Estilos para el encabezado*/
 	.header{
 		width: 100%;
-		height: 100px;
+		height: 80px;
 		position: fixed;
 		top: 0;left: 0;
+		background-color: #f5faff;
+		border-bottom: solid 2px #83bc48;
+	
 	}
 	.container{
 		width: 90%;
@@ -42,17 +140,17 @@
 	}
 	.container .menu a{
 		display: inline-block;
-		padding: 15px;
+		padding: 12px;
 		line-height: normal;
 		text-decoration: none;
-		color: black;
+		color:#3b3b3b;
 		transition: all 0.3s ease;
 		border-bottom: 2px solid transparent;
-		font-size: 15px;
+		font-size: 20px;
 		margin-right: 5px;
 	}
 	.container .menu a:hover{
-		border-bottom: 2px solid #c7c7c7;
+		border-bottom: 2px solid #83bc48;
 		padding-bottom: 5px;
 	}
 	/*Fin de Estilos para el encabezado*/
@@ -94,19 +192,19 @@
 		display: block;
 		text-decoration: none;
 		padding: 20px;
-		color: #c7c7c7;
+		color:#3b3b3b;
 		border-left: 5px solid transparent;
 		transition: all 400ms ease;
 	}
 	.cont-menu nav a:hover{
-		border-left: 5px solid #c7c7c7;
+		border-left: 5px solid #83bc48;
 		background: #1f1f1f;
 	}
 	.cont-menu label{
 		position: absolute;
 		right: 5px;
 		top: 10px;
-		color:black;
+		color:#3b3b3b;
 		cursor: pointer;
 		font-size: 18px;
 	}
@@ -122,7 +220,7 @@
 }
 .container-lic .btn-menu label{
 	color: black;
-	font-size: 50px;
+	font-size: 40px;
 	cursor: pointer;
 }
 
@@ -135,14 +233,15 @@
 	padding: 15px;
 	line-height: normal;
 	text-decoration: none;
-	color: black;
+	color:#3b3b3b;
 	transition: all 0.3s ease;
 	border-bottom: 2px solid transparent;
-	font-size: 50px;
+	font-size: 40px;
+	font-family: 'GloberBold';
 	margin-right: 5px;
 }
 .container-lic .menu a:hover{
-	border-bottom: 2px solid #c7c7c7;
+	border-bottom: 2px solid #83bc48;
 	padding-bottom: 5px;
 }
 
@@ -171,14 +270,15 @@
 	padding: 15px;
 	line-height: normal;
 	text-decoration: none;
-	color: black;
+	color:#3b3b3b;
 	transition: all 0.3s ease;
 	border-bottom: 2px solid transparent;
-	font-size: 80px;
+	font-size: 40px;
 	margin-right: 5px;
+	font-family: 'GloberBold';
 }
 .container-home .menu a:hover{
-	border-bottom: 2px solid #c7c7c7;
+	border-bottom: 2px solid #83bc48;
 	padding-bottom: 5px;
 }
 
@@ -191,11 +291,20 @@
   margin: auto; 
   color:black;}
   .wrap p{
-	text-align: justify; 	  
+	text-align:left; 	  
   }
   .wrap li{
-	text-align: justify; 	  
+	text-align:left; 
+	  list-style-position: outside;
   }
+ul li {
+  line-height: 1.5;
+}
+
+ol {
+  list-style-type: lower-alpha;
+	
+}
 
 .main {
   width: 100%;
@@ -212,10 +321,21 @@
 
 h1{
 	font-size: 30px;
-	color: black;
+	color: #83bc48;
+	font-family: 'GloberBold';
 	text-transform: uppercase;
 	font-weight: 300;
 	text-align: center;
+	margin-bottom: 15px;
+	
+  }
+h2 {
+	font-size: 24px;
+	color: #00644e;
+	font-family: 'GloberBold';
+
+	font-weight: 300;
+	text-align: left;
 	margin-bottom: 15px;
   }
   table{
@@ -237,6 +357,7 @@ h1{
 	font-weight: 500;
 	font-size: 15px;
 	color: black;
+	  font-family: 'GloberBold';
 	text-transform: uppercase;
   }
   td{
@@ -254,9 +375,8 @@ h1{
   
   @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
   body{
-	background: -webkit-linear-gradient(left, #25b7c4, #25c481);
-	background: linear-gradient(to right, #25b7c4, #25c481);
-	font-family: 'Roboto', sans-serif;
+	
+	font-family: 'GloberReguar', sans-serif;
   }
   section{
 	margin: 50px;
